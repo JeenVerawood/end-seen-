@@ -1,0 +1,45 @@
+@font-face {
+    font-family: KT;
+    src: url(/font/KhaoNiawThin.ttf);
+}
+  
+body {
+    font-family: KT;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: black;
+    min-width: 100vw;
+    /* background-position: bottom 0px left 0px; */
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 2.5rem;
+    /* backdrop-filter: blur(1px); */
+}
+p{
+    font-size: 5rem;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    height: auto;
+}
+.user1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 140px 0 ;
+}
+.images{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: aquamarine 
+}
+.text{
+    text-align: right;
+}
+.text2{
+    text-align: left;
+}
